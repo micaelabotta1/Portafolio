@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    max-width: 2048px;
+}
+
+#logo {
+    width: 220px;
+}
+
+/*.logo-menu {
+    line-height: 120px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    position: relative;
+    background: black;
+}*/
+
+ul {
+    margin-top: 30px;
+    padding: 0 50px 0 0;
+}
+
+nav {
+    background: rgba(255, 255, 255);
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    float: right;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0px 7px;
+    margin: 0px 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    color: #01b8dd;
+    transition: 1s;
+}
+
+header {
+    height: 300px;
+    background: #01b8dd;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: white;
+}
+
+h1.h1-quienes-somos {
+    margin-bottom: 25px;
+    padding: 20px 0;
+    /*background-color: red;*/
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 45px;
+    color: #01b8dd;
+}
+
+.contenedor {
+    margin-top: 110px;
+}
+
+#img-ref {
+    width: 500px;
+    float: right;
+}
+
+.nh {
+    padding: 0 5px 0 0;
+}
+
+.conelfin {
+    margin-left: 135px;
+    margin-top: 80px;
+}
+
+.nuestra-historia {
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+#img-ref {
+    margin-top: 50px;
+}
+
+.cols-container {
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.cols {
+    column-count: 4;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 200px;
+    font-size: 20px;
+    display: inline-flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 50px;
+}
+
+.cols-a,
+.cols-b,
+.cols-c,
+.cols-d {
+    color: rgb(77, 76, 76);
+    text-align: center;
+    margin: 0px 20px;
+    position: relative;
+}
+
+.text-counter {
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 30px;
+}
+
+.contador-container {
+    width: 95%;
+    padding-top: 200px;
+    margin: auto;
+    background-image: url(../img/numeros.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-counter {
+    width: 50%;
+    text-align: center;
+    font-size: 100px;
+    display: inline-flex;
+    font-size: 20px;
+    position: relative;
+}
+
+.pad {
+    margin: 0 25px 0 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    position: relative;
+    font-size: 30px;
+}
+
+.counter {
+    margin: 0 25px 0 0;
+    font-size: 35px;
+}
+
+img#ico {
+    width: 150px;
+    height: 180px;
+}
+
+img#proyectos {
+    width: 150px;
+    height: 180px;
+}
+
+p.linkeo {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+p.aqui {
+    color: blue;
+    margin-left: 500px;
+}
+
+.text-valores {
+    width: 100%;
+    height: 350px;
+    background-color: #605D5A;
+}
+
+h4.text-aliados {
+    margin-left: 50px;
+    font-size: 35PX;
+}
+
+b {
+    margin-right: 1200px;
+}
+
+ul.nav.nav-pills {
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+}
+
+h1.h1-quienes-somos {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+img#logo {
+    width: 100px;
+    margin-right: 100px;
+}
+
+h4.text-aliados {
+    color: white;
+    margin-left: 25px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+tbody {
+    display: flex;
+    padding: 180px;
+    margin-left: -300px;
+    line-height: 5;
+}
+
+footer {
+    background: black;
+    width: 95%;
+    margin: auto;
+    margin-top: 130px;
+}
+
+.info-cont {
+    width: 100%;
+    display: flex;
+    padding: 40px 20px;
+}
+
+.marca {
+    display: flex;
+}
+
+#slogo-blanco {
+    width: 200px;
+    height: 200px;
+}
+
+.contactanos {
+    display: flex;
+    color: white;
+}
+
+.contactanos-text {
+    left: 200px;
+    font-size: 20px;
+}
+
+.contact-title {
+    left: 80px;
+    position: relative;
+}
+
+.logo-carta {
+    width: 40px;
+    position: relative;
+    right: 280px;
+}
+
+/*.redes {
+    display: block;
+    color: white;
+}*/
+
+.rsli {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.redes-icon {
+    width: 20px;
+}
+
+.items-op {
+    margin-top: 80px;
+}
+
+#qs {
+    color: blue;
+}
+
+.nh {
+    column-count: 4;
+    margin-right: 550px;
+    margin-left: 150px;
+    text-align: justify;
+}
+
+.nh2 {
+    margin-left: 15px;
+    margin-right: 550px;
+    text-align: justify;
+}
+
+.contenedor-somos h1,
+h2 {
+    color: #000;
+}

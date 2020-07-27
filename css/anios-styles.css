@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+h1.politico{
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 3%;
+}
+.inferior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barrit-manos {
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+}
+.barrit {
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+}
+
+/*Mobile first*/
+
+.img-responsive{
+    height: auto;
+    width: 100%;
+}
+
+.contenido-{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.textos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*tablet*/
+@media only screen and (min-width: 768px){
+    .contenido-{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .imagenes{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .textos{
+        padding: 1.2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/*Pc*/
+@media only screen and (min-width: 1280px){
+    .contenido-{
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start; 
+    }
+    .imagenes{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 1rem;
+        min-width:20%;    
+    }
+    .textos{
+        line-height: 3rem;
+        padding-left: 6rem;
+        padding-top: 0;
+        justify-content: flex-start;
+        align-items: flex-start;    
+    }
+    .boton{
+        min-width: 300px;
+        justify-content: center;
+    }
+}

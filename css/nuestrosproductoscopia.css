@@ -1,0 +1,71 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+h1.que-hacemos{
+	color: white;
+    text-align: center;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.row-somos{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+hr.style-barra-que-hacemos{
+width: 5%;
+height: 2px;
+margin: 2px;
+margin-left: 2px;
+background-color: white;
+margin-left: 47%;
+}
+hr.style-barra-que-hacemoss{
+width: 5%;
+height: 2px;
+margin: 2px;
+margin-left: 2px;
+background-color: #01b8dd;
+margin-left: 47%;
+}
+.contenedor-somos {
+    padding:8px;
+    background-color: #01b8dd;
+   }
+
+
+.productos h3::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #01b8dd;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+h3.titulo-productos{
+	text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+	
+}
+p.hacemos{
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+}
+
+.row-galeria{
+width:100%;
+    margin:0 auto;
+
+}
+
+.col-imagen{
+    width: 76%;
+    margin:0 auto;
+}

@@ -1,0 +1,159 @@
+
+*{
+ margin:0;
+ padding: 0;
+}
+section.contenedor-section-afteer-banner{
+ background-color:white;
+ width: 100%;
+ height: auto;
+ margin-top: 30px;
+}
+div.container-icono-texto-sumate{
+ border: 1px 1px 1px 1px  solid black;
+ width: 50%;
+ height: auto;
+ text-align: center;
+}
+img.img-pulgar-arriba{
+ top: 3%;
+}
+h2.style-realiza-una-donacion{
+ font-size:20px;
+ font-family: 'Sen', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+margin-top: 3%;
+}
+h2.style-quiero-ser-voluntario{
+ font-size:20px;
+ font-family: 'Sen', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+margin-top: 3%;
+}
+.img-mano-alzada{
+ top:3%;
+}
+p.descripcion-donacion{
+ text-align: center;
+}
+p.descripcion-voluntario{
+ text-align: center;
+}
+.style-icons{
+ color: blue; 
+ 
+}
+/*.imagen{
+	background: url(img/sumat.jpg);
+	 background-size: cover;	 
+ width: 100%;
+ height: 50px; 
+ position: relative;
+}
+.imagen:before{
+ content: "";
+ width: 100%;
+ height: 100%;
+ background-color: aqua;
+ position: absolute;
+ opacity: 0.5;
+}*/
+ .style-banner-sumate{
+  background-image: url(../img/image1.jpg);
+ background-size: cover;	
+ background-repeat: no-repeat; 
+ background-position:center center;
+ width: 100%;
+ min-height:300px; 
+ position: relative;
+ }
+ .style-banner-sumate:before{
+ content: "";
+ width: 100%;
+ height: 100%;
+ background-color:  #01b8dd;
+ position: absolute;
+ opacity: 0.5;
+}
+.style-h1-sumate{
+ text-align: center;
+}
+.style-h1-sumate,.style-p-sumate{
+ color: white;
+ font-family:'Montserrat', sans-serif;
+ position: relative; 
+ font-weight: 300px;
+ margin:20px 20% 0px 20%;
+ top: 24%;
+ padding-top: 20px;
+
+}
+hr.style-barra-sumate{
+    width: 3%;
+    height: 2px;
+    margin: 2px;
+    background-color: white;
+    margin-left: 48%;
+    position: absolute;
+}
+
+h2.text-organizacion{
+	display: inline-block;
+	width:300px;
+	min-height: 400px;
+	background: #808080;
+}
+section.content{
+    position: relative;
+}
+div#caja2 {
+    position: absolute;
+    margin-left: 74%;
+    width: 100%;
+    height: 443px;
+    background: red;
+}
+p.org {
+    position: relative;
+    margin-left: 11%;
+    top: 4%;
+}
+p.Argentina {
+    position: relative;
+    top: 21%;
+    margin-left: 2%;
+}
+img.organizacion{
+	position: absolute;
+    margin-left: 4%;
+    width: 25%;
+}
+@media  screen and(max-width:768px ){
+h1.style-h1-sumate {
+    position: relative;
+    top: 5%;
+}
+p.style-p-sumate {
+    top: 4%;
+}
+
+}
+/* ----------- dispositivos móviles ----------- */
+/* cambios css para modo vertical y horizontal */
+@media only screen
+  and (max-width: 736px)
+{
+  /* inserta aquí tu código */
+  .style-p-sumate{
+    margin: 20px 0 0 0;
+    top: 4%;
+}
+.style-h1-sumate{
+padding-top: 30px;
+position: relative;
+    top: 5%;
+}
+hr.style-barra-sumate{
+    top:80px;
+}
+}

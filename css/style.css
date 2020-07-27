@@ -1,0 +1,1929 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+@import url(css/nuestrosproductos.css);
+@import url(css/quienes_somos.css);
+@import url(css/index.css);
+@import url(css/escuela.css);
+@import url(icomoon/icomoon.css);
+@import url(css/estiloFooter.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --colorprimario: #01b8dd;
+}
+
+.contenido-p-gracias-a-tus-manos {
+    min-width: 70%;
+    padding: 15px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+p.slider {
+    font-family: 'Montserrat bold', arial;
+}
+
+.list-group-item {
+    border: none;
+}
+
+
+/*Background oscuro para letras visible-quienes-somos.html*/
+
+.shadow-background {
+    background: rgba(0, 0, 0, .3);
+}
+
+#staff {
+    background-image: url('../img/numeros.jpg');
+    background-repeat: no-repeat;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+.staff-number {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    margin-top: 25px;
+}
+
+.container.contenedor-logo-ul {
+    width: 100%;
+    height: 50px;
+}
+
+.contenedor-logo-ul.container-fluid {
+    margin-left: 150px;
+}
+
+.contenedor-somos.text-center {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #01b8dd;
+    margin-top: -30px;
+}
+
+h3.mt-5 {
+    margin-right: 270px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4.text-aliados {
+    margin: 0 200px;
+    color: white;
+    margin-left: 36px;
+    position: relative;
+    top: 36px;
+}
+
+.text-valores {
+    background-color: #6E6E6E;
+    height: 400px;
+    width: 95%;
+    margin: auto;
+    margin-top: 22px;
+}
+
+.info-cont {
+    width: 100%;
+    display: flex;
+    padding: 40px 20px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.marca {
+    display: flex;
+}
+
+.contactanos {
+    display: flex;
+    color: white;
+}
+
+.contactanos-text {
+    left: 200px;
+    font-size: 20px;
+}
+
+.contact-title {
+    left: 80px;
+    position: relative;
+}
+
+.logo-carta {
+    width: 40px;
+    position: relative;
+    right: 280px;
+}
+
+
+/*redes {
+    display: block;
+    color: white;
+}*/
+
+.rsli {
+    /*list-style-type: none;*/
+    text-decoration: none;
+}
+
+.redes-icon {
+    width: 20px;
+}
+
+.separador-linea {
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+h1.h1-quienes-somos {
+    color: white;
+    font-weight: 300;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+}
+
+p.p-quienes-somos {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+hr.style-barra-quienes-somos {
+    width: 5%;
+    height: 2px;
+    margin: 2px;
+    background-color: white;
+    margin-left: 48%;
+}
+
+.contenedor-logo-ul.container-fluid {
+    margin-left: 150px;
+}
+
+.title-own {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.title-own::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #01b8dd;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.parrafo-historia {
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.contactanos-text {
+    margin-top: 90px;
+}
+
+img.logo-carta {
+    margin-top: 150px;
+    width: 100px;
+    bottom: 60px;
+    right: 21px;
+    left: -390px;
+}
+
+ul.nav.nav-pills {
+    font-family: 'montserrat', 'sans-serif';
+    font-weight: 500px;
+}
+
+img#img-politica {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.text-escuela {
+    text-align: center;
+    margin-top: 28px;
+}
+
+hr.linea {
+    width: 5%;
+    height: 2px;
+    margin: 2px;
+    background-color: black;
+    margin-top: 35px;
+    margin-left: 48%;
+}
+
+span.linea {
+    width: 5%;
+    height: 2px;
+    margin: 2px;
+    background-color: #007bff;
+    margin-left: 48%;
+}
+
+.linea-escuela2 {
+    width: 5%;
+    height: 2px;
+    background-color: red;
+    margin-left: 48%
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    top: 4px;
+    margin-top: 54px;
+    background-color: #01b8dd
+    /*red*/
+    ;
+}
+
+
+
+img#seguinos-rosario {
+    position: absolute;
+    height: 150px
+    /*60px*/
+    ;
+    margin-left: /*850px*/
+    80%;
+    width: 215px
+    /*86px*/
+    ;
+    margin-bottom: 50px;
+    float: right;
+}
+
+img#img-mundo {
+    position: relative;
+    width: 100%;
+    margin-top: 108px;
+    height: 400px;
+}
+
+.nom-primer {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 400;
+    font-size: 20px;
+    order: 1;
+}
+
+.num-900 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 600;
+    font-size: 51px;
+    order: 1;
+    margin-top: -210px;
+    margin-left: 576px;
+    position: absolute;
+}
+
+.num-13 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 600;
+    font-size: 51px;
+    order: 1;
+    margin-top: -210px;
+    margin-left: 876px;
+    position: absolute;
+}
+
+.nom-graduados {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 400;
+    order: 1;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -123px;
+    margin-left: 576px;
+}
+
+.nom-realizadas {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 400;
+    order: 1;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -123px;
+    margin-left: 876px;
+}
+
+.productos {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.productos h3 {
+    padding-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.productos h3::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #01b8dd;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.productos img {
+    width: 250px;
+    height: 150px;
+}
+
+footer h3 {
+    font-size: 18px;
+    color: #fff;
+    margin-right: 297px;
+}
+
+footer img {
+    top: -80px;
+}
+
+footer a {
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .row {
+    margin-top: 40px;
+}
+
+p.parrafo-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    float: right;
+    position: absolute;
+    margin-left: 305px;
+    margin-right: 167px;
+    margin-top: -4px;
+}
+
+p.parrafo-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-top: 46px;
+    margin-left: 304px;
+    position: absolute;
+}
+
+p.parrafo-3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 172px;
+    margin-left: 303px;
+}
+
+
+/*h2.text-2010{
+font-family:'Montserrat', sans-serif;
+font-weight: 400;
+}
+h2.text-2010 {
+    margin-left: 216px;
+    position: absolute;
+    margin-top: 25px;
+}*/
+
+.linea-escuela {
+    width: 5%;
+    height: 2px;
+    background-color: #01b8dd;
+    margin-left: 48%;
+}
+
+h3.contacto {
+    font-size: 18px;
+    font-size: 18px;
+    color: white;
+    margin-left: 465px;
+    position: relative;
+    top: 58px;
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+}
+
+
+/*
+h3.redes {
+    margin-left: 948px;
+}
+*/
+
+#email {
+    color: white;
+    margin-left: 444px;
+}
+
+
+/*footer.info-cont {
+ position: absolute;
+ width: 100%;
+ height: auto;
+background-color: black;
+}*/
+
+.icon-checkmark:before {
+    content: "\ea10";
+}
+
+a#email {
+    position: absolute;
+    margin-top: 61px;
+    margin-left: 488px;
+}
+
+#img-email {
+    width: 22px;
+    position: absolute;
+    margin-left: 461px;
+    top: 93px;
+}
+
+img#img-bmw {
+    width: 308px;
+    height: 200px;
+    position: absolute;
+    margin-top: -37px;
+}
+
+.nav-item .active {
+    color: #fff !important;
+    background-color: #007bff;
+}
+
+
+/*quienes-somos*/
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #007bff;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-left: -151px;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 2048px;
+    margin: auto;
+}
+
+
+/*escuela de liderazgo*/
+
+h2.text-escuelas {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #01b8dd;
+    margin-top: 30px;
+}
+
+.contenedor-imagen {
+    background-color: #01b8dd;
+}
+
+h2.nom-primer {
+    position: absolute;
+    margin-top: -123px;
+    margin-left: 196px;
+}
+
+.sponsor {
+    width: 95%;
+    margin: auto;
+    margin-top: -74px;
+}
+
+.sponsor-title {
+    text-align: center;
+    border: solid 1px grey;
+    margin-top: 128px;
+}
+
+.img-sponsor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*año por año*/
+
+.Container {
+    width: 100%;
+    margin: 0 0 20px 0
+}
+
+.Grid {
+    padding: 0 10%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 150px;
+    grid-gap: 15px;
+}
+
+@media (min-width: 501px) and (max-width: 900px) {
+    .Grid {
+        padding: 0 10%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 150px;
+        grid-gap: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .Grid {
+        padding: 0 10%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 150px;
+        grid-gap: 15px;
+    }
+}
+
+.Grid .Grid__card {
+    background-color: red;
+    position: relative;
+}
+
+.Grid .Grid__card::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    content: attr(data-year);
+    color: #fff;
+    padding: 15px;
+    transition: all ease .3s;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.Grid__card:hover::after {
+    /*content: 'asdasd';*/
+    color: red
+}
+
+.Grid .Grid__card .Grid__card-img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.Grid .Grid__card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.sponsors {
+    width: 200px;
+    margin-right: 50px;
+}
+
+h2.palabra {
+    position: absolute;
+    top: 1300px;
+    left: 665px;
+    margin-top: -147px;
+    color: white;
+    font-weight: 900;
+}
+
+
+/*Congreso Nacional*/
+
+h2.text-congreso {
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h1.tit-imgagen {
+    text-align: center;
+    position: relative;
+    top: -348px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.cont-num-1 {
+    /*margin-top: -15%;*/
+    display: flex;
+    justify-content: center;
+}
+
+.textos {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cont-texto {
+    width: 200px;
+    text-align: center;
+    margin-top: -20%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.contenedor-img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.dos-puntos {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+img#img-logo-congreso {
+    height: 200px;
+    margin-top: -10%;
+}
+
+.parrafos {
+    position: absolute;
+}
+
+img#img-conadir {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+
+/* clase img conadir */
+
+.img-logo-conadir {
+    position: relative;
+    top: 25%;
+}
+
+h2.conadir {
+    position: absolute;
+    /* bottom: -20px; */
+    top: 1300px;
+    left: 35%;
+    margin-top: 906px;
+    color: white;
+}
+
+h2.numeros {
+    position: absolute;
+    top: 2125px;
+    left: 778px;
+    color: white;
+    text-shadow: 0.1px 0.1px 10px white;
+    margin-top: 83px;
+    margin-left: 10%;
+}
+
+.size {
+    font-size: 40px;
+}
+
+.num {
+    text-shadow: 0.1px 0.1px 10px white;
+}
+
+
+/*.title-size {
+    font-size: 55px;
+    position: relative;
+    line-height: 200px;
+}*/
+
+h2.conadir-titulo {
+    /* bottom: -20px; */
+    /* top: 161%; */
+    left: 30%;
+    margin-top: -35%;
+    color: white;
+}
+
+h2.nom-work {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 400;
+    order: 1;
+    /*font-size: 20px;*/
+    position: absolute;
+    margin-top: -123px;
+    margin-left: 576px;
+}
+
+h2.nom-work {
+    position: absolute;
+    color: white;
+    margin-top: -120px;
+    margin-left: 72%;
+    /*font-size: 21px;*/
+    text-shadow: 2px 2px 2px black;
+}
+
+img#img-congreso {
+    width: 100%;
+}
+
+.num-8 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 600;
+    font-size: 51px;
+    order: 1;
+    margin-top: -210px;
+    margin-left: 1515px;
+    position: absolute;
+}
+
+footer h3 {
+    margin-right: 483px;
+}
+
+.parrafo-1-congreso {
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    margin-left: 20%;
+    width: 65%;
+}
+
+p.parrafo-2-congreso {
+    text-align: justify;
+    margin-top: 2%;
+    width: 46%;
+    margin-left: 346px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+p.parrafo-3-congreso {
+    margin-top: 381px;
+    text-align: justify;
+    width: 46%;
+    margin-left: 346px;
+    margin-top: -1%;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+
+/*gracias a tus manos*/
+
+.barrit-manos {
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+}
+
+div.contenedor-congreso {
+    width: 100%;
+    height: auto;
+}
+
+
+/*span.linea-manos {
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #01b8dd;
+    margin-left: 637px;
+    margin-top: 5px;
+}
+*/
+
+p.parrafo-1-manos {
+    text-align: justify;
+    position: absolute;
+    margin-top: -296px;
+    /*width: 46%;*/
+    margin-left: 401px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+p.parrafo-2-manos {
+    text-align: justify;
+    /* position: absolute;*/
+    margin-top: -212px;
+    width: 46%;
+    margin-left: 400px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+p.parrafo-3-manos {
+    margin-top: 165px;
+    text-align: justify;
+    width: 46%;
+    margin-left: 399px;
+    margin-top: -100px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+
+/*img#img-banner {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    margin-top: 515px;
+}*/
+
+img#img-banner-manos {
+    width: 100%;
+    margin-top: -135px;
+}
+
+.title-absolute {
+    margin-top: -32%;
+    color: white;
+    margin-left: 32%;
+    font-size: 41px;
+    position: absolute;
+}
+
+b.numero {
+    text-shadow: 0.1px 0.1px 10px white;
+}
+
+@media (max-width: 1174px) {
+    * {
+        box-sizing: border-box;
+    }
+    header {
+        flex-wrap: wrap;
+        word-wrap: break-word;
+    }
+    .img-sponsor {
+        flex-wrap: wrap;
+        word-wrap: break-word;
+    }
+}
+
+@media (max-width: 1030px) {
+    * {
+        box-sizing: border-box;
+    }
+    header {
+        flex-wrap: wrap;
+        word-wrap: break-word;
+    }
+    .img-sponsor {
+        flex-wrap: wrap;
+        word-wrap: break-word;
+    }
+    #logo {
+        display: none;
+    }
+}
+
+.inferior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-imgg {
+    color: #fff;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('../img/eco.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(50%);
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.cont-num {
+    display: flex;
+    margin-top: 12%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    justify-content: space-between;
+}
+
+.cont {
+    width: 200px;
+    text-align: center;
+}
+
+.cont h3 {
+    font-size: 40px;
+}
+
+.cont p {
+    text-align: center;
+    margin: 0;
+}
+
+.inferior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barrit {
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+}
+
+img#img-congresoo {
+    max-width: 1352px;
+    width: 100%;
+    float: left;
+}
+
+
+/*gracias a tus manos-iamgen*/
+
+.cont-numeros {
+    color: #fff;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: url('../img/banner-manos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(50%);
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+/*hover menu*/
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu:hover {
+    display: block;
+}
+
+.tit-img {
+    display: flex;
+    flex-direction: column;
+}
+
+h1.tit-img {
+    text-align: center;
+}
+
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    float: right;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+}
+
+@media (max-width:700px) {
+    .esc .contenedorr {
+        display: block;
+    }
+    .contenedor-img {
+        display: flex;
+        justify-content: center;
+    }
+    .cont-num {
+        display: block;
+    }
+}
+
+@media (max-width:360px) {
+    .ul.nav.nav-pills {
+        display: none;
+    }
+}
+
+.Grid .Grid__card:nth-child(2n) {
+    background-color: #1d5cb7;
+}
+
+.Grid .Grid__card:nth-child(2n+1) {
+    background-color: #99d121;
+}
+
+@media (min-width: 500px) {
+    .cont-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+/* estilos menu */
+
+.menu ul a {
+    color: var(--colorprimario);
+}
+
+.boltear {
+    transform: rotate(-90deg);
+}
+
+@media (max-width:799px) {
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu ul a {
+        color: #fff;
+    }
+    .menu .logotipo {
+        width: 50%;
+        position: relative;
+        top: 45px;
+        left: 0;
+    }
+    .menu .menu-boton {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .menu .menu-boton img {
+        width: 20px;
+        cursor: pointer;
+        margin-right: 5px;
+    }
+    .inactive {
+        display: none;
+    }
+    .flecha {
+        width: 5px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+    }
+    .menu ul {
+        width: 100%;
+        background-color: #006AA3;
+        padding-left: 0;
+    }
+    #men {
+        background: #0091C4;
+    }
+    .menu li {
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .menu li a {
+        width: 100%;
+    }
+    .dropdown-menu:hover {
+        display: none;
+    }
+    
+    .dropdown-menu {
+        display: none;
+    }
+/*#menulogo{
+    margin-left: 40%;
+}*/
+    img.logo-footer {
+        width: 35% !important;
+    }
+   /* .carousel-inner {
+        display: none;
+    }*/
+    .content_contacto {
+        text-align: center;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    .content_redes {
+        text-align: center;
+    }
+    .footer__rosario .col-md-4 {
+        max-width: 100% !important;
+        flex: 100% !important;
+    }
+    .conten__logo {
+        text-align: center;
+    }
+    .menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .menu ul {
+        display: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+    .menu ul li ul {
+        display: none;
+    }
+    .menu ul li:hover ul {
+        display: block;
+        position: absolute;
+        background-color: #000;
+        z-index: 99999;
+    }
+    .menu ul li:hover ul li {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .menu ul li:hover ul li a {
+        color: #fff;
+    }
+    .menu #press {
+        display: none;
+    }
+    .menu {
+        height: 100px;
+    }
+    .menu ul li a {
+        padding: 10px 20px;
+        margin-right: 10px;
+    }
+}
+
+.logotipo img {
+    width: 100% !important;
+}
+
+.centro ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.centro ul li ul {
+    list-style: none;
+}
+
+.centro-2015 {
+    width: 100%;
+}
+
+.Resumen-2015 {
+    margin-top: 22%;
+    margin-left: -36%;
+}
+
+.Resumen ul {
+    list-style: none;
+}
+
+.Resumen {
+    margin-left: 20px;
+}
+
+.centro-2012 {
+    margin-top: -495px;
+    margin-left: 424px;
+}
+
+.Resumen-2012 {
+    margin-left: 408px;
+}
+
+.centro-2013 {
+    margin-left: 114px;
+    position: relative;
+}
+
+.Resumen-2013 {
+    position: relative;
+    margin-left: -282px;
+    margin-top: 212px;
+}
+
+.titulo-2014-2 {
+    margin-top: 436px;
+    position: relative;
+    margin-left: -174px;
+}
+
+.centro-2014-2 {
+    position: relative;
+    margin-top: 567px;
+    margin-left: -280px;
+}
+
+hr.style-barra-nuestros-valores {
+    width: 46%;
+    height: 2px;
+    margin: 2px;
+    background-color: #01b8dd;
+    margin-left: 60%;
+    margin-top: -20px;
+}
+
+hr.style-barra2-nuestros-valores {
+    width: 46%;
+    height: 2px;
+    margin: 2px;
+    background-color: #01b8dd;
+    margin-left: -6%;
+    margin-top: -5px;
+}
+
+.productos .container {
+    margin: 0 auto;
+}
+
+
+/*jovenes html*/
+
+img#img-logo-jovenes {
+    height: 200px;
+    width: 308px;
+}
+
+p.primer-parte {
+    text-align: justify;
+    position: absolute;
+    margin-top: -147px;
+    width: 46%;
+    margin-left: 346px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#img-jovenes {
+    width: 100%
+}
+
+img#img-ljd {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    margin-top: 38px;
+}
+
+.parrafos-taller {
+    margin-left: 3%;
+    margin-top: 1%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+
+/*taller oratoria*/
+
+img#img-taller {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    margin-top: 38px;
+}
+
+
+/*empresas programa*/
+
+p.parrafo {
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+li.item {
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+
+/*mucho mas*/
+
+p#parrafo-1 {
+    margin-left: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+li.itemss {
+    margin-left: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#parrafo {
+    margin-top: 11%;
+}
+
+
+/*nuestros productos*/
+
+.contenedor-que-hacemos {
+    margin-top: -7%;
+}
+
+.productos .container {
+    /* margin: auto; */
+    margin-left: 8%;
+}
+
+
+/*Footer Estilos 2*/
+
+footer {
+    background-color: black;
+}
+
+.logofooter2 {
+    width: 50%;
+}
+
+.datos {
+    color: white;
+    font-size: 23px;
+    font-weight: 300!important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.enlace {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300!important;
+    font-size: 18px;
+}
+
+.enlace:hover {
+    color: white;
+}
+
+
+/*Fin Footer Estilos 2*/
+
+@media screen and(max-width:768px) {
+    .datos {
+        font-size: 20px;
+    }
+    .carousel-inner {
+        display: none;
+    }
+    /* #logo-blanco{
+    width: 100%;
+    height: auto;
+}*/
+.dropdown-menu:hover {
+    display: none;
+}
+
+.dropdown-menu {
+    display: none;
+}
+}
+
+.enlace {
+    font-size: 15px;
+}
+
+.logo-rosario {
+    width: 100%;
+    top: 0;
+    margin-left: 50%;
+}
+
+.div-contacto-email-footer {
+    width: 100%;
+}
+
+#header {
+    display: none;
+}
+
+.logotipo img {
+    display: block;
+}
+
+
+
+@media screen and (max-device-width:768px) {
+    hr.style-barra-nuestros-valores {
+        width: 38%;
+        margin-left: 70%;
+    }
+    .dropdown-menu:hover {
+        display: none;
+    }
+    
+    .dropdown-menu {
+        display: none;
+    }
+    
+    /*sumate.html- titulo sumate-parrafp*/
+    
+    h1.style-h1-sumate {
+        top: 9%;
+    }
+    /*sumate.html - barra inferior h1 sumate*/
+    
+    hr.style-barra-sumate {
+        display: none;
+    }
+    
+    p.style-p-sumate {
+        top: 4%;
+    }
+    
+    img#logo-blanco {
+        width: 100%;
+        height: auto;
+    }
+    
+    .ptext .border {
+        margin-left: -13%
+    }
+    
+    .cont-num-1 {
+        margin-top: -19%;
+        justify-content: center;
+    }
+    
+    hr.style-barra2-nuestros-valores {
+        width: 38%;
+        margin-left: -9%;
+        margin-top: -6px;
+    }
+    /*div de titulo conadir*/
+    
+    .titulo-conadir {
+        margin-top: 8%;
+        margin-left: 35%;
+        position: absolute;
+    }
+    /*imagenes-row-nuestros productos*/
+    
+    .iamgenes {
+        position: relative;
+        margin-left: -21%;
+    }
+    
+    .parrafos {
+        top: 90%;
+        margin-left: -40%;
+        font-size: 15px;
+    }
+    
+    h1.tit-imgagen {
+        margin-top: -264px/*0px*/
+        ;
+        font-size: 14px;
+    }
+    
+    p.primer-parte {
+        margin-top: 27px;
+        margin-left: 27%;
+    }
+    
+    img#img-ljd {
+        margin-top: 282px;
+    }
+    
+    .contenedor-logo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contenedor-img {
+        display: flex;
+        justify-content: center;
+    }
+    
+    img#img-conadir {
+        margin-top: 693px;
+    }
+    
+    p.parrafo-1-manos {
+        margin-left: -64%;
+        margin-top: 14%;
+    }
+    
+    img#img-banner-manos {
+        margin-top: 45px;
+    }
+    /*h1.tit-imgagen {
+    margin-top: 23%;
+}*/
+    
+    .banner-gracias {
+        margin-top: 17%;
+    }
+    
+    h1.tit-imgagen {
+        font-size: 23px;
+    }
+    
+    img#img-logo-manos {
+        width: 300px;
+        height: 200px;
+        margin-left: -1%;
+        margin-top: -8%;
+    }
+    /*parrafo-gracias(gracias a tus manos)*/
+    
+    p.parrafo-gracias {
+        margin-left: -48%;
+        margin-top: 16%;
+        text-align: center;
+    }
+}
+
+/*RESOLUCIONES A UTILIZAR A PARTIR DEL 21/04/2020*/
+
+/* @MEDIA 1920PX */
+@media screen and (max-width:1920px) {
+    img#img-congreso {
+        width: 100%;
+        height: 800px;
+    }
+    
+    img.img-logo-conadir {
+        margin-left: 0%;
+    }
+    
+    img#img-logo-congreso {
+        margin-top: 5%;
+    }
+    
+    img#img-manos {
+        width: 100%;
+        height: 800px;
+    }
+    
+    div.parrafos p {
+        margin-left: 20%;
+    }
+    
+    img#logo-blanco {
+        height: auto;
+    }
+    
+    p.style-mucho-mas {
+        display: none;
+    }
+    
+    img#img-jovenes {
+        width: 100%;
+    }
+    
+    img#img-noticias {
+        width: 100%;
+        height: 300px;
+        margin-left: 0%;
+    }
+    
+    img#img-ljd {
+        width: 100%;
+        height: 800px;
+    }
+    
+    img#img-politica {
+        width: 100%;
+        height: 800px;
+    }
+    .dropdown-menu:hover {
+        display: none;
+    }
+    
+    .dropdown-menu {
+        display: none;
+    }
+}
+
+/* FINISHED @MEDIA 1920PX */
+
+/* MEDIA 768PX*/
+@media screen and (max-width: 768px) {
+    div.imagen-gracias-a-tus-manos {
+        display: none;
+    }
+    
+    div#nav {
+        margin-left: 15%;
+    }
+    /*footer */
+    
+    img#logo-blanco {
+        margin-left: 79%;
+    }
+    
+    .col-md-5.mb-md-0.mb-3.div-contacto {
+        margin-top: 10%;
+        margin-left: -8%;
+    }
+    
+    .logo-redes {
+        margin-left: -42%;
+        margin-top: 18%;
+    }
+    
+    
+    
+    img#img-logo-manos {
+        width: 100%;
+    }
+    
+    p.parrafo-gracias {
+        margin-left: -40%;
+    }
+    
+    img#img-congreso {
+        display: none;
+    }
+    /*div.parrafos{
+     display:none;
+    }*/
+    
+    img#img-logo-manos {
+        display: none;
+    }
+    /*div.contenido-p-gracias-a-tus-manos {
+     display:none;
+    }*/
+    
+    h2.titulo {
+        margin-left: 0%;
+    }
+    /*div.dropdown-menu a.dropdown-item{
+        display: none;
+    }*/
+    
+    a p.style-mucho-mas {
+        display: block;
+    }
+    
+    p.style-mucho-mas {
+        margin-top: 14%;
+    }
+    
+    img#img-jovenes {
+        width: 100%;
+    }
+    
+    div.carousel-none {
+        display: none;
+    }
+    
+    img#img-noticias {
+        display: none;
+    }
+    
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: none;
+    }
+    .dropdown-menu:hover {
+        display: none;
+    }
+    
+    .dropdown-menu {
+        display: none;
+    }
+    /* media query parrafo congreso  */
+    
+    .parrafo-1-congreso {
+        float: unset!important;
+    }
+}
+
+/* FINISHED @MEDIA 768PX */
+
+/*@MEDIA 1366PX*/
+@media screen and (max-width: 1366px) {
+    h2.titulo {
+        margin-left: 5%;
+    }
+    
+    p.style-mucho-mas {
+        display: none;
+    }
+    
+    img#img-noticias {
+        width: 100%;
+        height: 400px;
+        /*margin-left: -11%;*/
+    }
+    
+    div.container-portada-donacion {
+        width: 100%;
+    }
+    
+    img#img-politica {
+        width: 100%;
+        height: 600px;
+    }
+    .dropdown-menu:hover {
+        display: none;
+    }
+    
+    .dropdown-menu {
+        display: none;
+    }
+}
+
+/*FINISHED @MEDIA 1366PX*/
+
+/*@MEDIA 800PX */
+@media screen and (max-width: 800px) {
+    .dropdown:hover {
+        display: block;
+    }
+
+    div#nav {
+        margin-left: 15%;
+    }
+    /*footer */
+    
+    img#logo-blanco {
+        margin-left: 79%;
+    }
+    
+    .col-md-5.mb-md-0.mb-3.div-contacto {
+        margin-top: 10%;
+        margin-left: -8%;
+    }
+    
+    .logo-redes {
+        margin-left: -42%;
+        margin-top: 18%;
+    }
+    
+    img#img-jovenes {
+        display: none;
+    }
+    
+    
+    .dropdown-menu:hover {
+        display: none;
+    }
+    
+    .dropdown-menu {
+        display: none;
+    }
+    /* media query parrafo congreso  */
+    
+    .parrafo-1-congreso {
+        float: right!important;
+        margin-right: 50px!important;
+    }
+    
+    .imagen-congreso {
+        display: none;
+    }
+}
+
+/*FINISHED @MEDIA 800PX*/
+
+/* BEGINNING @MEDIA 480PX*/
+@media (max-width: 480px) {
+    /* clase img conadir */
+    
+    .img-logo-conadir {
+        position: relative;
+        display: block;
+        top: 0%;
+    }
+ 
+    /*.img-gracias {
+        margin: 0px!important;
+    }*/
+    
+    .parrafo-1-congreso {
+        margin-top: 30px;
+    }
+    
+    img.logo-footer {
+        width: 60% !important;
+    }
+    .dropdown-menu:hover {
+        display: none;
+    }
+    
+    .dropdown-menu {
+        display: none;
+    }
+}
+
+/* FINISHED @MEDIA 480PX*/
+@media screen and (max-width: 800px) {
+    img#img-manos {
+        display: none;
+    }
+    
+    img#img-politica {
+        display: none;
+    }
+    
+    img#img-noticias {
+        display: none;
+    }
+}
+@media screen and (max-width: 457px ) {
+    .image-fluid{
+     width: 38%;
+        margin-left: -2%;
+    }
+
+}
+/*boton leer mas*/
+p.boton-leermas{
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+}
